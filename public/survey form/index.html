@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <meta charset="UTF-8">
+  <title>Hamza love survey</title>
+  <link rel="stylesheet" href="styles.css">
+<head>
+  <h1 id="title"> Hamza Love survey</h1>
+  <p id="description"> Please fill this survey out completely to show love for Hamza</p>
+  </head>
+  <body>
+<form id="survey-form">
+  <fieldset>
+  Full Name(Required): <label id="name-label"> 
+    <input id="name" type="text"  required/ placeholder=" Enter Full Name here"> 
+    </label>
+  Email(Required): <label id="email-label"> <input id="email" type="email" required placeholder="Enter Email here"/> </label>
+  Age: (Required) <label id=
+ "number-label"> <input id="number" type="number" min="14" max="20"  required  placeholder="Age" /> </label>
+  
+       <select id="dropdown" required>
+        
+         <option> How much do you love Hamza?
+           </option>
+           <option> I will kill for him</option>
+           <option> I love him 1000000</option>
+           <option> only a little bittle</option>
+
+       </select> 
+        </fieldset>
+     <fieldset>
+       <legend> Do you love Hamza? <legend>
+       <label>
+    Yes <input type="radio" id="yes" name="love" value="radio"  />
+    maybe <input type="radio" id="maybe" value="radio" name="love" />
+    </label>
+    </fieldset>
+    <fieldset>
+      <legend> why do you love Hamza?</legend>
+     <label> 
+       <input type="checkbox" value="checkbox" /> He is very cool
+       <input type="checkbox" value="checkbox"/> He is 6'
+       <input type="checkbox" value="checkbox" /> Just cuz
+        </label> 
+      
+      <label for="Comments"> Any dditional comments go here.
+      <textarea id="Comments" name="Comments" rows="3" cols="30" placeholder="boy oh boy where do i even begin"> </textarea>
+</fieldset>
+
+  <input type="submit" id="submit"/>
+  </form>
+
+  </body>
+
+  </html>
